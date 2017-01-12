@@ -1,25 +1,24 @@
-Yii 2 Advanced Project Template
+Yii Тестовый проект для carlink
 ===============================
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+1. Разворачивать в папке с помощью Git
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+git clone https://github.com/korkiss/carlink_test.git
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+2. Развернуть дамп из папочки 
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+sql_dump/yii2.sql
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+3. настроить вебсервер для работы с проектом
+
+
 
 DIRECTORY STRUCTURE
 -------------------
 
-```
+
+sql_dump
+    yii2.sql/            contains MySQL dump for test project
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
