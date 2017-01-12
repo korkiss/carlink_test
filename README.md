@@ -1,24 +1,31 @@
 Yii Тестовый проект для carlink
+
 ===============================
+
+
 
 1. Разворачивать в папке с помощью Git
 
+
+
 git clone https://github.com/korkiss/carlink_test.git
+
+
 
 2. Развернуть дамп из папочки 
 
 sql_dump/yii2.sql
 
+
+
 3. настроить вебсервер для работы с проектом
 
 
 
+
+
 DIRECTORY STRUCTURE
--------------------
 
-
-sql_dump
-    yii2.sql/            contains MySQL dump for test project
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
@@ -50,4 +57,3 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
     codeception/         contains tests developed with Codeception PHP Testing Framework
-```
